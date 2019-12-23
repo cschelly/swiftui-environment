@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CFC2AC3F239E015400AC7EF7 /* Environment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Environment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC2AC3F239E015400AC7EF7 /* Environment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Environment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC2AC42239E015400AC7EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFC2AC44239E015400AC7EF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CFC2AC46239E015400AC7EF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		CFC2AC40239E015400AC7EF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFC2AC3F239E015400AC7EF7 /* Environment.app */,
+				CFC2AC3F239E015400AC7EF7 /* Environment1.app */,
 				CFC2AC55239E015600AC7EF7 /* EnvironmentTests.xctest */,
 				CFC2AC60239E015600AC7EF7 /* EnvironmentUITests.xctest */,
 			);
@@ -153,7 +153,7 @@
 			);
 			name = Environment;
 			productName = Environment;
-			productReference = CFC2AC3F239E015400AC7EF7 /* Environment.app */;
+			productReference = CFC2AC3F239E015400AC7EF7 /* Environment1.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CFC2AC54239E015600AC7EF7 /* EnvironmentTests */ = {
@@ -442,8 +442,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.schelly.Environment;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schelly.Environment1;
+				PRODUCT_NAME = Environment1;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,8 +461,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.schelly.Environment;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schelly.Environment1;
+				PRODUCT_NAME = Environment1;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
